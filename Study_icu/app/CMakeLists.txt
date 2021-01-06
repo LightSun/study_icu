@@ -12,6 +12,7 @@ add_library(icudt SHARED IMPORTED)
 set_target_properties(icudt PROPERTIES IMPORTED_LOCATION ${LIB_DIR}/libicudt51.so)
 
 aux_source_directory(src/main/cpp/sample SRC_sample)
+aux_source_directory(src/main/cpp/Unicode SRC_sample)
 
 add_library(
         study-icu
