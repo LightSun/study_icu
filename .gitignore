@@ -83,3 +83,7 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+#build cache
+icu4c_android/libs/
+icu4c_android/obj/
